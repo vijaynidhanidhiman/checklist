@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/checklist")
-public class ChecklistController {
+public class TodoController {
 
     private final List<ChecklistItem> items = new ArrayList<>();
 
